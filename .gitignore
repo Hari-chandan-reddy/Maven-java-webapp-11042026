@@ -1,0 +1,16 @@
+target/
+bin/
+
+# Eclipse / IDE files
+.settings/
+.project
+.classpath
+
+# Maven wrapper (optional but usually skip unless needed)
+.mvn/
+
+# PMD / static analysis
+.pmd
+
+# Logs
+*.log
