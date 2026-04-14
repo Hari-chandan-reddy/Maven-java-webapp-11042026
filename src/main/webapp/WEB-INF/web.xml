@@ -7,7 +7,17 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
 	<display-name>Archetype Created Web Application</display-name>
 
+	<servlet>
+		<servlet-name>Site Home Servlet</servlet-name>
+		<servlet-class>com.codegnan.app.javawebapp11042026.servlet.SiteHomeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Site Home Servlet</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
 	<welcome-file-list>
-		<welcome-file>greeting.html</welcome-file>
+		<welcome-file>home</welcome-file>
 	</welcome-file-list>
 </web-app>

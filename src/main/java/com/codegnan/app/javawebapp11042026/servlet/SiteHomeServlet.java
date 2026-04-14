@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 //@WebServlet({"/", "/home"})
 //@WebServlet("/")
-@WebServlet("/home")
+//@WebServlet("/home")
 public class SiteHomeServlet extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
